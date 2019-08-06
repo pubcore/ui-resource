@@ -20,20 +20,20 @@ It can be used for config data.
 		})
 
 ## Examples
-	import uiConfig from 'pubcore-ui-resource'
 
-	var C = {
-		key1: {obj:'test'},
-  	key2: [4,5,6],
-  	key3: 'a,b,c'
-	}
+		import uiConfig from 'pubcore-ui-resource'
+		var C = {
+			key1: {obj:'test'},
+  		key2: [4,5,6],
+  		key3: 'a,b,c'
+		}
 
-//Will log [4,5,6] and if postUri service exists on dev will also write
-//a default {key1:[1,2,3]} into config.json file
-console.log(
-	uiConfig(
-		C,
-		'key1',
-		[1,2,3] // default which will be written in config.json file, only on Dev system
-	)
-)
+		//Will log [4,5,6] and if postUri service exists on dev will also write
+		//a default {key1:[1,2,3]} into config.json file
+		console.log(
+			uiConfig(
+				C,
+				'key1',
+				[1,2,3] //default which will be written in config.json file, only on Dev system
+			)
+		)
