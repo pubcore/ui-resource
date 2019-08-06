@@ -27,7 +27,7 @@ import uiConfig from 'pubcore-ui-resource'
 var C = {
 	key1: {obj:'test'},
 	key2: [4,5,6],
-  key3: 'a,b,c'
+	key3: 'a,b,c'
 }
 //Will log [4,5,6] and if postUri service exists on dev will also write
 //a default {key1:[1,2,3]} into config.json file
