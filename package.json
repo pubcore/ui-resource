@@ -1,5 +1,5 @@
 {
-				"name": "@pubcore/ui-resources",
+				"name": "@pubcore/ui-resource",
 				"version": "1.0.1",
 				"description": "supports developer synchronizing config-keys used in source-code and default resource files",
 				"author": "pubcore",
