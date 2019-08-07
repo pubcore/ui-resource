@@ -4,7 +4,7 @@ It can be used for config data.
 
 # Configuration
 ```
-import {initEnvIsDev, initDefaults, initAutoupdateDefaults} from 'pubcore-ui-resource'
+import {initEnvIsDev, initDefaults, initAutoupdateDefaults} from '@pubcore/ui-resource'
 
 //initial config.json content is a empty json object {}
 import defaultConfig from '../config.json'
@@ -23,7 +23,7 @@ initAutoupdateDefaults({
 
 ## Examples
 ```
-import uiConfig from 'pubcore-ui-resource'
+import uiConfig from '@pubcore/ui-resource'
 var C = {
 	key1: {obj:'test'},
 	key2: [4,5,6],
