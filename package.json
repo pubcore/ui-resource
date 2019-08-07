@@ -1,7 +1,12 @@
 {
 				"name": "@pubcore/ui-resources",
+				"version": "1.0.0",
 				"description": "supports developer synchronizing config-keys used in source-code and default resource files",
 				"author": "pubcore",
+				"repository": {
+					"type": "git",
+					"url": "git+ssh://git@github.com:pubcore/ui-resource.git"
+				},
 				"scripts": {
 								"test": "nyc --reporter=text mocha --inspect --require @babel/register --require source-map-support --recursive",
 								"build": "babel src --out-dir js",
